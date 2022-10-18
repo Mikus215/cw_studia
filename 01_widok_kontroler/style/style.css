@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    margin: 1rem;
+}
+
+.form__input-controller{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.form__input{
+    padding: .3rem;
+}
+
+.form__submit-button{
+    padding: .3rem;
+    background-color: none;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: .3rem;
+}
